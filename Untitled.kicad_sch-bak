@@ -1,0 +1,264 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "SparkFun-DiscreteSemi:MOSFET-NCH-FQP30N06L" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "Q" (id 0) (at 3.81 3.81 0)
+        (effects (font (size 1.143 1.143)) (justify left bottom))
+      )
+      (property "Value" "MOSFET-NCH-FQP30N06L" (id 1) (at 3.81 -5.08 0)
+        (effects (font (size 1.143 1.143)) (justify left bottom))
+      )
+      (property "Footprint" "TO220V" (id 2) (at 0 6.35 0)
+        (effects (font (size 0.508 0.508)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Field4" "TRANS-10060" (id 4) (at 0 7.62 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "ki_locked" "" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "PROD_ID:TRANS-10060" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "N-channel MOSFETs Voltage controlled devices that allow control of high current outputs. <b>SparkFun Products:</b><ul><li><a href= https://www.sparkfun.com/products/13261 >SparkFun OpenScale</a></li><li><a href= https://www.sparkfun.com/products/12651 >SparkFun Digital Sandbox</a></li><li><a href= https://www.sparkfun.com/products/10182 >SparkFun Monster Moto Shield</a></li><li><a href= https://www.sparkfun.com/products/11214 >SparkFun MOSFET Power Controller</a></li></ul>" (id 7) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "*TO220V* *TO-263_D2PAK*" (id 8) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MOSFET-NCH-FQP30N06L_1_0"
+        (polyline
+          (pts
+            (xy -2.54 -2.54)
+            (xy -2.54 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.9812 -1.905)
+            (xy -1.9812 -2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.9812 -1.905)
+            (xy 0 -1.905)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.9812 -1.2954)
+            (xy -1.9812 -1.905)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.9812 0.6858)
+            (xy -1.9812 -0.8382)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.9812 1.8034)
+            (xy -1.9812 1.0922)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.9812 1.8034)
+            (xy 2.54 1.8034)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.9812 2.54)
+            (xy -1.9812 1.8034)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.905)
+            (xy 0 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy -1.2192 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.6002 0.381)
+            (xy 1.778 0.5588)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy 2.54 -1.905)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -1.905)
+            (xy 0 -1.905)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -0.7112)
+            (xy 2.54 -1.905)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 0.5588)
+            (xy 1.778 0.5588)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 0.5588)
+            (xy 3.302 0.5588)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 1.8034)
+            (xy 2.54 0.5588)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy 2.54 1.8034)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.302 0.5588)
+            (xy 3.4798 0.7366)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "MOSFET-NCH-FQP30N06L_1_1"
+        (polyline
+          (pts
+            (xy -1.9812 0)
+            (xy -1.2192 0.254)
+            (xy -1.2192 0.254)
+            (xy -1.2192 -0.254)
+            (xy -1.2192 -0.254)
+            (xy -1.9812 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 1.778 -0.7112)
+            (xy 2.54 0.5588)
+            (xy 2.54 0.5588)
+            (xy 3.302 -0.7112)
+            (xy 3.302 -0.7112)
+            (xy 1.778 -0.7112)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
+        )
+        (pin bidirectional line (at -5.08 -2.54 0) (length 2.54)
+          (name "G" (effects (font (size 1.016 1.016))))
+          (number "1" (effects (font (size 1.016 1.016))))
+        )
+        (pin bidirectional line (at 2.54 5.08 270) (length 2.54)
+          (name "D" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016))))
+        )
+        (pin bidirectional line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.016 1.016))))
+          (number "3" (effects (font (size 1.016 1.016))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "SparkFun-DiscreteSemi:MOSFET-NCH-FQP30N06L") (at 97.79 71.12 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 685b73c2-37fc-46cb-8115-6fb587aec9a2)
+    (property "Reference" "Q?" (id 0) (at 102.87 68.58 0)
+      (effects (font (size 1.143 1.143)) (justify left))
+    )
+    (property "Value" "" (id 1) (at 102.87 71.12 0)
+      (effects (font (size 1.143 1.143)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 97.79 64.77 0)
+      (effects (font (size 0.508 0.508)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 97.79 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Field4" "TRANS-10060" (id 4) (at 102.87 74.295 0)
+      (effects (font (size 1.524 1.524)) (justify left))
+    )
+    (pin "1" (uuid 7c5e3929-68b7-436f-b4c4-89c2bce77d3e))
+    (pin "2" (uuid 659557fb-a7ce-4711-ae9e-b80fdf875f83))
+    (pin "3" (uuid 811b9558-c08f-467e-8484-a53665a5bd50))
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/685b73c2-37fc-46cb-8115-6fb587aec9a2"
+      (reference "Q?") (unit 1) (value "MOSFET-NCH-FQP30N06L") (footprint "TO220V")
+    )
+  )
+)
